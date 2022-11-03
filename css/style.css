@@ -218,18 +218,33 @@ color: #FFFFFF;
     content:"";
    
     height: 120px;
-    outline: 1px solid red;
-/* background-image: url(../imges/icons.svg/astronaut\ 1\ \(1\).svg); */
-background-size: contain;
+    /* outline: 1px solid red; */
+    background: #F5F4FA;
+border-radius: 4px;
+background-size:none;
 background-repeat: no-repeat;
 background-position: center;
 
 
 }
 
-.preference .items:nth-child(3)::before{
-    background-image: url(../imges/icons.svg/astronaut\ 1\ \(1\).svg);
+
+.preference .items:nth-child(4)::before{
+    background-image: url(../imges/icons.svg/astronaut\ 4\ \(1\).svg);
+
 }
+.preference .items:nth-child(3)::before{
+    background-image: url(../imges/icons.svg/Vector3\ \(1\).svg);
+}
+
+.preference .items:nth-child(2)::before{
+    background-image: url(../imges/icons.svg/clock\ 2\ \(1\).svg);
+}
+
+.preference .items:nth-child(1)::before{
+    background-image: url(../imges/icons.svg/antenna\ 1\ \(1\).svg);
+}
+
 
 
 .section{
@@ -349,6 +364,21 @@ letter-spacing: 0.03em;
 color:var(--primery-text-color);
 border-bottom: 2px solid  #F5F4FA;;
     }
+.icon-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-member {
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    outline: 1 px solid red;
+}
+
 
 
 /* футер */
