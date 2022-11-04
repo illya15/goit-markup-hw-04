@@ -149,6 +149,26 @@ color: var(--accent-color);
 .mail-phone .link:focus {
    color:var(--accent-color) ;  
   }
+.mail-phone .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-mail{
+    margin-right: 10px;
+  
+}
+/* .mail-phone .icon-mail { */
+    /* fill: currentColor; */
+/* } */
+
+.mail-phone .link:hover .icon-mail{
+fill: var(--accent-color);
+}
+    
+
+
 
     /* герой */
 
