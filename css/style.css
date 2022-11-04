@@ -375,11 +375,18 @@ align-items: center;
 
     width: 44px;
     height: 44px;
-    background-color: #2196F3;
+    /* background-color: #FFFFFF; */
     margin-right: 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    margin-bottom: 30px;
 
 }
+
+.item-member .member-link:hover{
+    background-color: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 
 .members .item-member:last-child{
     margin-right: 0px;
@@ -390,6 +397,9 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+     /* background-color: #F5F4FA; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
