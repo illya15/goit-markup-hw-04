@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="./css/style.css" class="">
 <body>
     <header class=" page-header "> 
-        <!-- шапка-->
-        <div class="conteiner main">
+        <header class="page-header"> 
+            <!-- шапка-->
+            <div class="conteiner main">
             <nav class="main-nav">
                 
                 <a class="logo-link" href="">Web<span class="logo-header">Studio</span></a>
@@ -28,15 +29,24 @@
             </ul>
             </nav>
             
-            <!-- <div class="main-nav"> -->
+            <div class="main-nav">
             <ul class="mail-phone list">
-                <li class="item"><a class="link" href="">info@devstudio.com</a>  </li>
-                <li class="item"><a class="link" href="tel+380961111111">+380961111111</a> </li>
+                <li class="item"><a class="link" href="">
+                    <svg class="icon-mail" width="16" height="12" > 
+                        <use href="./imges/symbol-defs.svg#envelope-1"></use> 
+                    </svg>              
+                    info@devstudio.com
+                </a>  </li>
+                <li class="item"><a class="link" href="tel+380961111111">
+                    <svg class="icon-mail" width="16" height="12" > 
+                        <use href="./imges/symbol-defs.svg#smartphone-1"></use> 
+                    </svg>              
+                    +380961111111</a> </li>
             </ul>
             
               </div>
             </div>
-    </header>
+        </header>
     <!--головна секція -->
     <main>
         <section class="section">
@@ -114,17 +124,46 @@
         </section>
     </main>
       <!--футер-->
-      <footer class="footer">
+      <footer class="conteiner footer">
         <div class="conteiner">
         <a class="logo-link" href="">Web<span class="logo-footer">Studio</span></a>
-             <address>
+        <address>
             <ul class="address list">
                 <li class="street">м. Київ, пр-т Лесі Українки, 26</li>
                 <li class="mail-footer-link">info@devstudio.com</li>
                 <li class="tel-footer-link">+38 096 111 11 11</li>
             </ul>
         </address>
-       </div>
+    
+        </div>
+            <div class="conteiner">
+        <section class="addition">
+            <h3 class="add">Приєднуйтесь</h3>
+            <lu class="addition-list" >
+                <li class="addition-item list"><a href="">
+                    <svg class="icon-add" width="20" height="20" > 
+                        <use href="./imges/symbol-defs.svg#instagram-2-1"></use> 
+                    </svg> 
+                </a></li>
+                <li class="addition-item list"><a href="">
+                    <svg class="icon-add" width="20" height="20" > 
+                        <use href="./imges/symbol-defs.svg#twitter-1-1"></use> 
+                    </svg> 
+                </a></li>
+                <li class="addition-item list"><a href="">
+                    <svg class="icon-add" width="20" height="20" > 
+                        <use href="./imges/symbol-defs.svg#facebook-1-1"></use> 
+                    </svg> 
+                </a></li>
+                <li class="addition-item list"><a href="">
+                    <svg class="icon-add" width="20" height="20" > 
+                        <use href="./imges/symbol-defs.svg#linkedin-1-1"></use> 
+                    </svg> 
+                </a></li>
+            </lu>
+        </section>
+    
+</div>
      </footer>
     
 </body>
