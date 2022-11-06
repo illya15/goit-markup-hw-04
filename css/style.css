@@ -585,8 +585,8 @@ color: #FFFFFF
  .cards-link {
     text-decoration: none;
  }
- .cards-link:hover,
- .cards-link:focus{
+ .link-img:hover,
+ .link-img:focus{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
